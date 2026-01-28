@@ -14,6 +14,7 @@ yarn-error.log*
 /mobile/build/
 /mobile/ios/Pods/
 /mobile/.expo-shared/
+/mobile/
 
 # Python
 __pycache__/
