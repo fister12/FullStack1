@@ -1,0 +1,27 @@
+/node_modules
+/mobile/node_modules
+.envndroid/
+/mobile/ios/
+/mobile/.gradle/
+/mobile/.expo/
+/mobile/build/
+/mobile/ios/Pods/
+/mobile/.expo-shared/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+venv/
+.env
+.env.local
+
+# IDEs / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
