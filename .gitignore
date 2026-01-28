@@ -1,6 +1,13 @@
-/node_modules
-/mobile/node_modules
-.envndroid/
+.gitignore for repo: ignore node_modules, mobile builds, python artifacts, IDE files, logs
+
+# Node
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# React Native / mobile
+/mobile/android/
 /mobile/ios/
 /mobile/.gradle/
 /mobile/.expo/
@@ -17,6 +24,7 @@ __pycache__/
 dist/
 build/
 venv/
+.venv/
 .env
 .env.local
 
@@ -25,3 +33,6 @@ venv/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
